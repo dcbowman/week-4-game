@@ -1,0 +1,17 @@
+body{
+	background:url("../images/backgroundcrystal.jpg");
+}
+h1{
+	text-align: center;
+	color:white;
+	font-size:60px;
+}
+.container{
+	background-color: white;
+}
+.rules{
+	font-size:20px;
+	color: blue;
+	text-align: center;
+
+}

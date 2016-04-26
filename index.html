@@ -17,51 +17,52 @@
 
 <body>
 <div class="page-header">
-  <h1>Welcome to the Magical Crystal Game</h1>
+  <h1>Welcome to the Magical Crystal Collector Game</h1>
 </div>
 
 <div class="container">
 <!--the rules-->
 	<div class ="rules">
+	<p> You will be given a random number at the start of the game. </p>
+	<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
+	You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.</p>
+	<p>The value of each crystal is hidden from you until you click on it.</p>
+	<p>Each time when the game starts, the game will change the value of each crystal. </p>
 	</div>
 <!--players number-->
-	<div class ="random">
-	<h2>number></h2>
+	<div class ="randomnum">
+	<h2 id="random">number</h2>
 	</div>
-<!--crystals-->
-<div class="row">
-  <div class="col-xs-12 col-md-2">
-  <a href="#" class="thumbnail">
-  <img src="assets/images/topazcrystal.jpg" alt="topaz">
-  </a>
-  </div>
-   <div class="col-xs-12 col-md-2">
-   <a href="#" class="thumbnail">
-   <img src="assets/images/yellowcrystal.jpg" alt="yellow">
-   </a>
-   </div>
-   <div class="col-xs-12 col-md-2">
-   <a href="#" class="thumbnail">
-   <img src="assets/images/pinkcrystal.jpg" alt="pink">
-   </a>
-   </div>
-   <div class="col-xs-12 col-md-2">
-   <a href="#" class="thumbnail">
-   <img src="assets/images/purplecrystal.jpg" alt="purple">
-   </a>
-   </div>
- </div>
-  
+<!--crystal buttons-->
 
+ <div class="btn-group btn-group-justified" role="group" aria-label="..."><div class="col-xs-12 col-sm-2">
+  <button type="button" class="btn btn-default"><a href="#" class="thumbnail">
+  <img src="assets/images/topazcrystal.jpg" alt="topaz">
+  </a></button>
+  <button type="button" class="btn btn-default"><a href="#" class="thumbnail">
+  <img src="assets/images/pinkcrystal.jpg" alt="pink">
+  </a></button>
+  <button type="button" class="btn btn-default"><a href="#" class="thumbnail">
+  <img src="assets/images/purplecrystal.jpg" alt="purple">
+  </a></button>
+  <button type="button" class="btn btn-default"><a href="#" class="thumbnail">
+  <img src="assets/images/yellowcrystal.jpg" alt="yellow">
+  </a></button>
+  </div>
+  </div>
+ 
     
 
 <!--current tally-->
-<div class ="total">
-<h2>number</h2>
+<div class ="totalnum">
+<h2 id="total">number</h2>
 </div>
 
 <!--Win or Lose -->
 	<div class ="score">
+	<h2>Your total score is:</h2>
+	<h3 id="win">Wins</h3>
+	<h3 id="lose">Losses</h3>
 	</div>
 </div>
 
