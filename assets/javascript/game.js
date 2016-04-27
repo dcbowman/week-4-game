@@ -1,8 +1,9 @@
 
 
 //This is where the player's random number shows:
-var number=
-document.getElementById("number").html(Math.floor((Math.random() * 120) + 19));
+var number= function(){
+(Math.floor((Math.random() * 120) + 19));
+}
 
 //this is where the buttons generate a random number:
 var buttons = function(){
@@ -11,16 +12,16 @@ var buttons = function(){
 
 //This is where the crystals random numbers are added:
 
-$("#topaz").on("click", function(){
+document.getElementById('#topaz').on('click' function(){
 	    		totalnum+=number
 			}); 
-$("#purple").on("click", function(){
+document.getElementById('#purple').on('click' function(){
+	    		totalnum+=number
+			});
+document.getElementById('#yellow').on('click' function(){
 	    		totalnum+=number
 			}); 
-$("#yellow").on("click", function(){
-	    		totalnum+=number
-			}); 
-$("#pink").on("click", function(){
+document.getElementById('#pink').on('click' function(){
 	    		totalnum+=number
 			}); 
 
@@ -42,12 +43,12 @@ var losses = 0
 
 
 //If there's a win:
-if {
+if 
 	(totalnum === number){
 wins++;
 document.querySelector('#wins').html = wins;
 //reset
-reset();}
+reset();
 }
 
 else {
@@ -56,8 +57,9 @@ losses++;
 document.querySelector('#losses').html =losses;
 reset();
 }
-}
+
 //start game
-setupGame: function(){
-	document.getElementById("number").html(Math.floor((Math.random() * 120) + 19);)
+function startgame(){
+	document.getElementById("number").html(Math.floor((Math.random() * 120) + 19));
+}
 }
