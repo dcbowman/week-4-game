@@ -2,7 +2,7 @@
 
 //This is where the player's random number shows:
 var number=
-document.getElementById("number").html(Math.floor((Math.random() * 120) + 19);)
+document.getElementById("number").html(Math.floor((Math.random() * 120) + 19));
 
 //this is where the buttons generate a random number:
 var buttons = function(){
@@ -12,22 +12,22 @@ var buttons = function(){
 //This is where the crystals random numbers are added:
 
 $("#topaz").on("click", function(){
-	    		totalNumb+=number
+	    		totalnum+=number
 			}); 
 $("#purple").on("click", function(){
-	    		totalNumb+=number
+	    		totalnum+=number
 			}); 
 $("#yellow").on("click", function(){
-	    		totalNumb+=number
+	    		totalnum+=number
 			}); 
 $("#pink").on("click", function(){
-	    		totalNumb+=number
+	    		totalnum+=number
 			}); 
 
 
 //fuction to be called when we reset:
 var reset = function(){
-	totalnumb=0
+	totalnum=0
 	number=Math.floor((Math.random() * 120) + 19);
 
 
@@ -42,20 +42,21 @@ var losses = 0
 
 
 //If there's a win:
-if{
+if {
 	(totalnum === number){
 wins++;
 document.querySelector('#wins').html = wins;
 //reset
 reset();}
 }
-else{
+
+else {
 	//if there's a loss
 losses++;
 document.querySelector('#losses').html =losses;
 reset();
 }
-
+}
 //start game
 setupGame: function(){
 	document.getElementById("number").html(Math.floor((Math.random() * 120) + 19);)
