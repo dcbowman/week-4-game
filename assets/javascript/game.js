@@ -1,36 +1,30 @@
 
-
+var crystalgame = {
 //This is where the player's random number shows:
-var number= function(){
-(Math.floor((Math.random() * 120) + 19));
-}
-
-//this is where the buttons generate a random number:
-var buttons = function(){
-	Math.floor((Math.random() * 12) + 1);
-}
+	number = function() {
+	(Math.floor((Math.random() * 120) + 19));
+	}
 
 //This is where the crystals random numbers are added:
-
-document.getElementById('#topaz').on('click' function(){
-	    		totalnum+=number
-			}); 
-document.getElementById('#purple').on('click' function(){
-	    		totalnum+=number
-			});
-document.getElementById('#yellow').on('click' function(){
-	    		totalnum+=number
-			}); 
-document.getElementById('#pink').on('click' function(){
-	    		totalnum+=number
-			}); 
+$('#topaz').on('click'function(){
+	Math.floor((Math.random() *12) + 1);
+	  }; 
+$('#pink').on('click' function (){
+	Math.floor((Math.random() *12) + 1);
+	  }; 
+$('#purple').on('click' function (){
+	Math.floor((Math.random() *12) + 1);
+	  }; 
+$('#yellow').on('click' function (){
+	Math.floor((Math.random() *12) + 1);
+	  }; 
+	
 
 
 //fuction to be called when we reset:
 var reset = function(){
 	totalnum=0
 	number=Math.floor((Math.random() * 120) + 19);
-
 
 }
 // this is where the total shows
@@ -57,9 +51,14 @@ losses++;
 document.querySelector('#losses').html =losses;
 reset();
 }
-
+}
 //start game
-function startgame(){
-	document.getElementById("number").html(Math.floor((Math.random() * 120) + 19));
+crystalgame.startgame(){
+	topaz=(Math.floor((Math.random()*12 + 1);
+	yellow=(Math.floor((Math.random()*12 + 1);
+	purple=(Math.floor((Math.random()*12 + 1);
+	pink=(Math.floor((Math.random()*12 + 1);
+var totalnum=0;
+var number=(Math.floor((Math.random() * 120) + 19));
 }
-}
+
