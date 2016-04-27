@@ -1,7 +1,8 @@
 
 
 //This is where the player's random number shows:
-var number= Math.floor((Math.random() * 120) + 19);
+var number=
+document.getElementById("number").html(Math.floor((Math.random() * 120) + 19);)
 
 //this is where the buttons generate a random number:
 var buttons = function(){
@@ -26,13 +27,13 @@ $("#pink").on("click", function(){
 
 //fuction to be called when we reset:
 var reset = function(){
-	totalNumb=0
+	totalnumb=0
 	number=Math.floor((Math.random() * 120) + 19);
 
 
 }
 // this is where the total shows
-var totalNumb = function(){
+var totalnum = function(){
 document.querySelector('#totalnum').html= (buttons+number);
 
 //This is the counter for wins/losses:
@@ -57,5 +58,5 @@ reset();
 
 //start game
 setupGame: function(){
-	var number=Math.floor((Math.random() * 120) + 19);
+	document.getElementById("number").html(Math.floor((Math.random() * 120) + 19);)
 }

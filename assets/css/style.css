@@ -1,38 +1,65 @@
 body{
 	background:url("../images/backgroundcrystal.jpg");
 }
-h1{
+.page-header{
 	text-align: center;
-	color:white;
+	color:black;
 	font-size:60px;
+	font-family: 'Poiret One', cursive;
 }
-
+p{
+	padding:10px;
+ 	font-family: 'Poiret One', cursive;
+}
 
 .rules{
 	font-size:20px;
-	color: blue;
+	color: navy;
 	text-align: center;
-	margin:20px;
-	padding:30px;
-	background-color: lightgrey;
+	background-color: lightblue;
+	font-family: 'Poiret One', cursive;
 }
-.randomnum{
-	background-color:yellow;
-}
+
+
 .totalnum{
-	font-size: 15px;
-	font-color: purple;
+	font-size: 40px;
+	font-color: black;
+	float:left;
+	margin-right: 60px;
+	text-align: center;
+	background-color:lightblue;
+	font-family: 'Poiret One', cursive;
 }
 h2{
-	font-size: 45px;
+	font-size: 40px;
+	font-color:black;
+	font-family: 'Poiret One', cursive;
 }
 .thumbnail{
-	max-height: 100px;
-	max-width: 60px;
+	max-height: 150px;
+	max-width: 90px;
+	background-color: black;
+	border-color: grey;
+
 }
 .score{
+	float:right;
+	border-color: black;
+	font-size:40px;
+	background-color: white;
+	padding-right: 75px;	
+	text-align: center;	
+	font-family: 'Poiret One', cursive;
+}
+.randomnum{
+	font-size:40px;
+	background-color: white;
 	float:left;
-	background-color: lightgrey;
-	font-size:45px;
-
+	border-color: black;
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+	
+}
+.container{
+	overflow:auto;
 }
