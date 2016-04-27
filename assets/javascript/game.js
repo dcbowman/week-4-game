@@ -24,7 +24,6 @@ $("#pink").on("click", function(){
 			}); 
 
 
-
 //fuction to be called when we reset:
 var reset = function(){
 	totalNumb=0
@@ -43,10 +42,11 @@ var losses = 0
 
 //If there's a win:
 if{
+	(totalnum === number){
 wins++;
 document.querySelector('#wins').html = wins;
 //reset
-reset();
+reset();}
 }
 else{
 	//if there's a loss
@@ -55,6 +55,7 @@ document.querySelector('#losses').html =losses;
 reset();
 }
 
+//start game
 setupGame: function(){
 	var number=Math.floor((Math.random() * 120) + 19);
 }

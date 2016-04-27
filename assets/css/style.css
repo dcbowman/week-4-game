@@ -6,12 +6,33 @@ h1{
 	color:white;
 	font-size:60px;
 }
-.container{
-	background-color: white;
-}
+
+
 .rules{
 	font-size:20px;
 	color: blue;
 	text-align: center;
+	margin:20px;
+	padding:30px;
+	background-color: lightgrey;
+}
+.randomnum{
+	background-color:yellow;
+}
+.totalnum{
+	font-size: 15px;
+	font-color: purple;
+}
+h2{
+	font-size: 45px;
+}
+.thumbnail{
+	max-height: 100px;
+	max-width: 60px;
+}
+.score{
+	float:left;
+	background-color: lightgrey;
+	font-size:45px;
 
 }
