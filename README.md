@@ -1,1 +1,3 @@
-# week-4-game
+Crystal guessing game. 
+
+Technology used: Bootstrap, JavaScript, jQuery
